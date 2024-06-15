@@ -1,4 +1,4 @@
-# Тестовое задание верстка макета
+# Тестовое задание верстка макета (вариант 2)
 
 [Макет](https://www.figma.com/file/P6uCxatat2CILoEA468n9R/Responsive-Startup-Website-(Community)?node-id=3%3A199)
 
