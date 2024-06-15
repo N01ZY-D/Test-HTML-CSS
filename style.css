@@ -200,6 +200,7 @@ body{
     line-height: 18.75px;
     margin-top: 0px;
     margin-bottom: 16px;
+    color: #21252980;
 }
 
 /*Services Security*/
@@ -237,6 +238,141 @@ body{
     line-height: 18.75px;
     margin-top: 0px;
     margin-bottom: 16px;
+    color: #21252980;
+}
+
+/*Services Team*/
+.team{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Work Sans';
+    margin-top: 100px;
+}
+
+.team_members{
+    width: 100%;
+    display: flex;
+    margin-bottom: 45px;
+    justify-content: space-between;
+}
+
+.mem{
+    max-width: 279px;
+    width: 100%;
+    max-height: 299px;
+    height: 100%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mem_info{
+    margin-top: 19px;
+}
+
+.mem img{
+    max-width: 175px;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.team_info{
+    max-width: 404px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tm_1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #74C69D;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.tm_2{
+    font-family: 'Crimson Text';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.tm_3{
+    margin-top: 0px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.tmi_1{
+    font-family: 'Crimson Text';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 19px;
+    margin-bottom: 17px;
+}
+
+.tmi_2{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.75px;
+    color: #212529BF;
+    margin-top: 0px;
+    margin-bottom: 19px;
+}
+
+/*Footer*/
+.footer{
+    background-color: #74C69D;
+    width: 100%;
+    min-height: 125px;
+    margin-top: 54px;
+    font-family: 'Work Sans';
+    color: #fff;
+}
+
+.ft_info{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+
+}
+
+.social img{
+    max-width: 24px;
+    width: 100%;
+    max-height: 24px;
+    height: 100%;
+    margin-right: 13px;
+}
+
+.license{
+    margin: 0px;
+    font-family: 'Work Sans';
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 /*Media*/
