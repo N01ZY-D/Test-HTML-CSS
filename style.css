@@ -60,6 +60,8 @@ body{
 }
 
 .header_text {
+    max-width: 415px;
+    width: 100%;
     font-size: 15px;
     font-weight: 400px;
 }
@@ -75,12 +77,13 @@ body{
 
 .header_info{
     display: flex;
+    justify-content: space-between;
 }
 
 .header_info img{
-    max-width: 570px;
+    max-width: 640px;
     width: 100%;
-    max-height: 380px;
+    max-height: 100vh;
     height: 100%;
 }
 
@@ -145,7 +148,8 @@ body{
 }
 
 .partners_logo img{
-    max-height: 50px;
+    max-width: 25vh;
+    max-height: 10vh;
     height: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -181,8 +185,10 @@ body{
 }
 
 .society img{
-    max-width: 600px;
+    max-width: 100vh;
     width: 100%;
+    max-height: 430px;
+    height: 100%;
 }
 
 .sc_1{
@@ -219,8 +225,10 @@ body{
 }
 
 .security img{
-    max-width: 600px;
+    max-width: 100vh;
     width: 100%;
+    max-height: 565px;
+    height: 100%;
 }
 
 .sr_1{
@@ -269,6 +277,7 @@ body{
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     text-align: center;
+    margin: 0 5px;
 }
 
 .mem_info{
@@ -376,13 +385,90 @@ body{
 }
 
 /*Media*/
-@media screen and (max-width: 880px){
+@media screen and (max-width: 1024px){
     .container{
-        padding: 0 15px;
+        padding: 0 20px;
     }
 
     .link p{
-        padding: 0 15px;
+        padding: 0 20px;
+    }
+
+    .partners{
+        padding: 0 20px;
+    }
+
+    .society{
+        padding: 0 20px;
+    }
+
+    .security{
+        padding: 0 20px;
+    }
+
+    .team{
+        padding: 0 20px;
+    }
+
+    .ft_info{
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .header_info{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .partners_logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .society{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sc_1{
+        margin-top: 30px;
+    }
+
+    .sc_info{
+        margin: 0;
+    }
+
+    .security{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .sr_1{
+        margin-top: 30px;
+    }
+
+    .secur_info{
+        margin: 0;
+    }
+
+    .team{
+        margin-top: 40px;
+    }
+
+    .team_members{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .mem{
+        margin-bottom: 35px;
     }
 }
 
