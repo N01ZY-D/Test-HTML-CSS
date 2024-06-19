@@ -1,5 +1,5 @@
 # Тестовое задание верстка макета (вариант 2)
-
+[Деплой](https://n01zy-d.github.io/Test-HTML-CSS/)
 [Макет](https://www.figma.com/file/P6uCxatat2CILoEA468n9R/Responsive-Startup-Website-(Community)?node-id=3%3A199)
 
 ## Необходимо реализовать адаптивную верстку в соответствии с макетом. Верстка производится по стандартам языка разметки HTML5 и CSS3.
