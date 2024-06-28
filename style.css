@@ -1,4 +1,4 @@
-:root{
+:root {
     --font-1: "Crimson Text", serif;
     --font-2: "Work Sans", sans-serif;
 
@@ -18,7 +18,7 @@
     --color-dark-25: rgba(33,37,41,0.25);
 }
 
-html{
+html {
     box-sizing: border-box;
 }
 
@@ -26,17 +26,17 @@ html{
     box-sizing: inherit;
 }
 
-body{
+body {
     margin: 0;
 }
 
-.body_wraper{
+.body-wraper {
     overflow: hidden;
     width: 100%;
     position: relative;
 }
 
-.container{
+.container {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -52,19 +52,19 @@ body{
     font-family: var(--font-2);
     color: var(--color-white-100);
 }
-.header_line {
+.header-line {
     display: flex;
     max-width: 1175px;
     width: 100%;
 }
 
-.logo{
+.logo {
     width: 64px;
     height: 50px;
     margin-top: auto;
     margin-bottom: auto;
 }
-.header_title {
+.header-title {
     font-size: 40px;
     font-weight: 500;
     line-height: 50px;
@@ -132,40 +132,40 @@ body{
 
 .link a {
     cursor: pointer;
-    margin: auto 0;
+    margin: 10px 0;
     color: var(--color-white-100);
     text-decoration: none;
 }
 
-.header_text {
+.header-text {
     max-width: 415px;
     width: 100%;
     font-size: 15px;
     font-weight: 400px;
 }
-.header_text h1{
+.header-text h1 {
     font-family: var(--font-1);
     font-size: 40px;
     font-weight: 700;
 }
-.header_text h2{
+.header-text h2 {
     font-size: 16px;
     font-weight: 700;
 }
 
-.header_info{
+.header-info {
     display: flex;
     justify-content: space-between;
 }
 
-.header_info img{
+.header-info img {
     max-width: 640px;
     width: 100%;
     max-height: 120vh;
     height: 100%;
 }
 
-.header_button {
+.header-button {
     cursor: pointer;
     width: 170px;
     height: 48px;
@@ -176,7 +176,7 @@ body{
     border-radius: 5px;
 }
 /*Services_Partners*/
-.partners{
+.partners {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -190,12 +190,12 @@ body{
     margin-top: 60px;
 }
 
-.partners_text{
+.partners-text {
     max-width: 410px;
     width: 100%;
 }
 
-.pt_1{
+.pt_1 {
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -203,7 +203,7 @@ body{
     text-align: center;
 }
 
-.pt_2{
+.pt_2 {
     font-family: var(--font-1);
     font-size: 40px;
     font-weight: 700;
@@ -215,19 +215,19 @@ body{
     margin-top: 16px;
 }
 
-.pt_3{
+.pt_3 {
     text-align: center;
     margin-bottom: 0px;
 }
 
-.partners_logo{
+.partners-logo {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.partners_logo img{ 
+.partners-logo img { 
     max-width: 15%;
     max-height: 10vh;
     height: auto;
@@ -236,7 +236,7 @@ body{
     margin-bottom: 50px;
 }
 
-.learn-more{
+.learn-more {
     cursor: pointer;
     width: 170px;
     height: 48px;
@@ -249,7 +249,7 @@ body{
     color: var(--color-white-100);
 }
 /*Services_Society*/
-.society{
+.society {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -259,21 +259,21 @@ body{
     margin-top: 73px;
 }
 
-.sc_info{
+.sc_info {
     display: flex;
     flex-direction: column;
     justify-items: center;
     margin-left: 110px;
 }
 
-.society img{
+.society img {
     max-width: 600px;
     width: 100%;
     max-height: 120vh;
     height: 100%;
 }
 
-.sc_1{
+.sc_1 {
     font-family: var(--font-1);
     font-weight: 700;
     font-size: 40px;
@@ -282,7 +282,7 @@ body{
     margin-top: 100px;
 }
 
-.sc_2{
+.sc_2 {
     font-weight: 400;
     font-size: 15px;
     line-height: 18.75px;
@@ -292,7 +292,7 @@ body{
 }
 
 /*Services Security*/
-.security{
+.security {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -302,18 +302,18 @@ body{
     margin-top: 73px;
 }
 
-.secur_info{
+.security_info {
     margin-right: 110px;
 }
 
-.security img{
+.security img {
     max-width: 600px;
     width: 100%;
     max-height: 150vh;
     height: 100%;
 }
 
-.sr_1{
+.sr_1 {
     font-family: var(--font-1);
     font-weight: 700;
     font-size: 40px;
@@ -322,7 +322,7 @@ body{
     margin-top: 180px;
 }
 
-.sr_2{
+.sr_2 {
     font-weight: 400;
     font-size: 15px;
     line-height: 18.75px;
@@ -332,7 +332,7 @@ body{
 }
 
 /*Services Team*/
-.team{
+.team {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -344,14 +344,14 @@ body{
     margin-top: 100px;
 }
 
-.team_members{
+.team-members {
     width: 100%;
     display: flex;
     margin-bottom: 45px;
     justify-content: space-between;
 }
 
-.mem{
+.mem {
     max-width: 279px;
     width: 100%;
     max-height: 299px;
@@ -362,11 +362,11 @@ body{
     margin: 0 5px;
 }
 
-.mem_info{
+.memberiinfo {
     margin-top: 19px;
 }
 
-.mem img{
+.mem img {
     max-width: 175px;
     width: 100%;
     border-radius: 50%;
@@ -376,7 +376,7 @@ body{
     margin-left: auto;
 }
 
-.team_info{
+.team-info {
     max-width: 404px;
     width: 100%;
     display: flex;
@@ -384,7 +384,7 @@ body{
     flex-direction: column;
 }
 
-.tm_1{
+.tm_1 {
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -393,7 +393,7 @@ body{
     margin-bottom: 0px;
 }
 
-.tm_2{
+.tm_2 {
     font-family: var(--font-1);
     font-weight: 700;
     font-size: 40px;
@@ -402,13 +402,13 @@ body{
     margin-bottom: 16px;
 }
 
-.tm_3{
+.tm_3 {
     margin-top: 0px;
     margin-bottom: 45px;
     text-align: center;
 }
 
-.tmi_1{
+.tmi_1 {
     font-family: var(--font-1);
     font-weight: 700;
     font-size: 24px;
@@ -417,7 +417,7 @@ body{
     margin-bottom: 17px;
 }
 
-.tmi_2{
+.tmi_2 {
     font-family: var(--font-2);
     font-weight: 400;
     font-size: 15px;
@@ -428,7 +428,7 @@ body{
 }
 
 /*Footer*/
-.footer{
+.footer {
     background-color: var(--color-green-100);
     width: 100%;
     margin-top: 54px;
@@ -437,7 +437,7 @@ body{
     color: var(--color-white-100);
 }
 
-.ft_info{
+.footer-info {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -446,7 +446,7 @@ body{
     justify-content: space-between;
 }
 
-.social img{
+.social img {
     cursor: pointer;
     max-width: 24px;
     width: 100%;
@@ -455,7 +455,7 @@ body{
     margin-right: 13px;
 }
 
-.license{
+.license {
     margin: 0px;
     font-family: var(--font-2);
     font-weight: 400px;
@@ -465,43 +465,43 @@ body{
 
 /*Media*/
 @media screen and (max-width: 1155px){
-    .container{
+    .container {
         padding: 0 20px;
     }
 
-    .partners{
+    .partners {
         padding: 0 20px;
     }
 
-    .society{
+    .society {
         padding: 0 20px;
     }
 
-    .sc_info{
+    .sc_info {
         margin: auto;
     }
 
-    .sc_1{
+    .sc_1 {
         margin-top: auto;
     }
 
-    .security{
+    .security {
         padding: 0 20px;
     }
 
-    .secur_info{
+    .security_info {
         margin: auto;
     }
 
-    .sr_1{
+    .sr_1 {
         margin-top: auto;
     }
 
-    .team{
+    .team {
         padding: 0 20px;
     }
 
-    .ft_info{
+    .footer-info {
         padding: 50px 20px;
     }
 }
@@ -539,26 +539,26 @@ body{
         padding: 10px;
     }
 
-    .header_info{
+    .header-info{
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .header_info img{   
+    .header-info img{   
         margin: 0 auto;
     }
 
-    .header_text{
+    .header-text{
         max-width: 100%;
     }
 
-    .partners_logo{
+    .partners-logo{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .partners_logo img{
+    .partners-logo img{
         max-width: 55%;
         margin-top: 40px;
         margin-bottom: 40px;
@@ -588,7 +588,7 @@ body{
         margin-top: 30px;
     }
 
-    .secur_info{
+    .security_info{
         margin: 0;
     }
 
@@ -596,7 +596,7 @@ body{
         margin-top: 40px;
     }
 
-    .team_members{
+    .team-members{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -619,7 +619,7 @@ body{
         margin-right: 13px;
     }
 
-    .ft_info{
+    .footer-info{
         display: flex;
         flex-direction: column;
         align-items: center;
