@@ -57,6 +57,7 @@ body{
     max-width: 1175px;
     width: 100%;
 }
+
 .logo{
     width: 64px;
     height: 50px;
@@ -69,7 +70,11 @@ body{
     line-height: 50px;
 }
 
-.menu-burger{
+.burger-checkbox {
+    display: none;
+}
+
+.menu-burger {
     display: none;
     position: relative;
     width: 40px;
@@ -81,7 +86,7 @@ body{
     cursor: pointer;
 }
 
-.menu-burger span{
+.menu-burger span {
     display: block;
     position: absolute;
     width: 30px;
@@ -92,29 +97,29 @@ body{
     will-change: transform;
 }
 
-.menu-burger span:nth-child(1){
-    transform: translateY(-10px);
+.menu-burger span:nth-child(1) {
+    top: 11px;
 }
 
-.menu-burger span:nth-child(2){
-    
+.menu-burger span:nth-child(2) {
+    top: 18px;
 }
 
-.menu-burger span:nth-child(3){
-    transform: translateY(10px);
+.menu-burger span:nth-child(3) {
+    top: 25px;
 }
 
 /*Крестик*/
-.header.open .menu-burger span:nth-child(1){
-    transform: translateY(0) rotate(45deg);
+.burger-checkbox:checked + .menu-burger span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
 }
 
-.header.open .menu-burger span:nth-child(2){
+.burger-checkbox:checked + .menu-burger span:nth-child(2) {
     opacity: 0;
 }
 
-.header.open .menu-burger span:nth-child(3){
-    transform: translateY(0) rotate(-45deg);
+.burger-checkbox:checked + .menu-burger span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
 }
 
 .link {
@@ -125,13 +130,9 @@ body{
     gap: 0 30px;
 }
 
-.link a{
+.link a {
     cursor: pointer;
-<<<<<<< Updated upstream
-    margin: auto 0 ;
-=======
     margin: 10px 0;
->>>>>>> Stashed changes
     color: var(--color-white-100);
     text-decoration: none;
 }
@@ -506,33 +507,35 @@ body{
 }
 
 @media screen and (max-width: 900px) {
-    .menu-burger{
+    .menu-burger {
         display: block;
         margin-left: auto;
         margin-top: auto;
         margin-bottom: auto;
     }   
 
-    .link{
+    .link {
         display: flex;
         flex-direction: column;
-        position: absolute;
-        right: -200px;
+        position: fixed;
+        right: 0;
         top: 0;
+        height: 100%;
         width: 200px;
         padding: 120px 20px 20px 20px;
         background-color: var(--color-dark-75);
         visibility: hidden;
+        transform: translateX(100%);
         transition: transform .5s, visibility .5s;
         will-change: transform;
     }
 
-    .header.open .link {
-        transform: translateX(-100%);
+    .burger-checkbox:checked ~ .link {
+        transform: translateX(0);
         visibility: visible;
     }
 
-    .link a{
+    .link a {
         padding: 10px;
     }
 
