@@ -132,7 +132,7 @@ body{
 
 .link a {
     cursor: pointer;
-    margin: auto 0;
+    margin: 10px 0;
     color: var(--color-white-100);
     text-decoration: none;
 }
