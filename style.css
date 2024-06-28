@@ -127,7 +127,11 @@ body{
 
 .link a{
     cursor: pointer;
+<<<<<<< Updated upstream
     margin: auto 0 ;
+=======
+    margin: 10px 0;
+>>>>>>> Stashed changes
     color: var(--color-white-100);
     text-decoration: none;
 }
