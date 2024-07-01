@@ -195,7 +195,7 @@ body {
     width: 100%;
 }
 
-.pt_1 {
+.partners-title {
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -203,7 +203,7 @@ body {
     text-align: center;
 }
 
-.pt_2 {
+.partners-subtitle {
     font-family: var(--font-1);
     font-size: 40px;
     font-weight: 700;
@@ -215,7 +215,7 @@ body {
     margin-top: 16px;
 }
 
-.pt_3 {
+.partners-description {
     text-align: center;
     margin-bottom: 0px;
 }
@@ -273,7 +273,7 @@ body {
     height: 100%;
 }
 
-.sc_1 {
+.society-title {
     font-family: var(--font-1);
     font-weight: 700;
     font-size: 40px;
@@ -282,7 +282,7 @@ body {
     margin-top: 100px;
 }
 
-.sc_2 {
+.society-subtitle {
     font-weight: 400;
     font-size: 15px;
     line-height: 18.75px;
@@ -313,7 +313,7 @@ body {
     height: 100%;
 }
 
-.sr_1 {
+.security-title {
     font-family: var(--font-1);
     font-weight: 700;
     font-size: 40px;
@@ -322,7 +322,7 @@ body {
     margin-top: 180px;
 }
 
-.sr_2 {
+.security-subtitle {
     font-weight: 400;
     font-size: 15px;
     line-height: 18.75px;
@@ -384,7 +384,7 @@ body {
     flex-direction: column;
 }
 
-.tm_1 {
+.team-title {
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -393,7 +393,7 @@ body {
     margin-bottom: 0px;
 }
 
-.tm_2 {
+.team-suntitle {
     font-family: var(--font-1);
     font-weight: 700;
     font-size: 40px;
@@ -402,13 +402,13 @@ body {
     margin-bottom: 16px;
 }
 
-.tm_3 {
+.team-description {
     margin-top: 0px;
     margin-bottom: 45px;
     text-align: center;
 }
 
-.tmi_1 {
+.team-member-title {
     font-family: var(--font-1);
     font-weight: 700;
     font-size: 24px;
@@ -417,7 +417,7 @@ body {
     margin-bottom: 17px;
 }
 
-.tmi_2 {
+.team-member-description {
     font-family: var(--font-2);
     font-weight: 400;
     font-size: 15px;
@@ -481,7 +481,7 @@ body {
         margin: auto;
     }
 
-    .sc_1 {
+    .society-title {
         margin-top: auto;
     }
 
@@ -493,7 +493,7 @@ body {
         margin: auto;
     }
 
-    .sr_1 {
+    .security-title {
         margin-top: auto;
     }
 
@@ -570,7 +570,7 @@ body {
         align-items: center;
     }
 
-    .sc_1{
+    .society-title{
         margin-top: 30px;
     }
 
@@ -584,7 +584,7 @@ body {
         align-items: center;
     }
 
-    .sr_1{
+    .security-title{
         margin-top: 30px;
     }
 
