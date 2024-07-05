@@ -218,6 +218,10 @@ body {
 .partners-description {
     text-align: center;
     margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    
 }
 
 .partners-logo {
@@ -406,6 +410,10 @@ body {
     margin-top: 0px;
     margin-bottom: 45px;
     text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    
 }
 
 .team-member-title {
